@@ -1,5 +1,5 @@
 # log in synapse ----------------------------------------------------------
-install.packages("synapser", repos=c("http://ran.synapse.org", "http://cran.fhcrc.org"), type="win.binary")
+install.packages("synapser", repos=c("http://ran.synapse.org", "http://cran.fhcrc.org"))
 library(synapser)
 library(filesstrings)
 

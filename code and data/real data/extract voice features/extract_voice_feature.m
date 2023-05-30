@@ -13,8 +13,8 @@ for j=1:500:64500
         res(j+i,:) = features;
         subject{j+i} = name(j+i,:);
     end
-    writematrix(res,'..\voice.csv\mpower_data\extracted features\voice_tmp.csv');
-    writecell(subject,'..\voice.csv\mpower_data\extracted features\subid_tmp.csv');
+    writematrix(res,'..\mpower_data\extracted features\voice_tmp.csv');
+    writecell(subject,'..\mpower_data\extracted features\subid_tmp.csv');
 end
 
 %% go to 'download mPower Data.R' to continue
